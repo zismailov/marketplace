@@ -25,8 +25,10 @@ gem "uglifier", ">= 1.3.0"
 gem "bootsnap", ">= 1.1.0", require: false
 
 group :development, :test do
+  gem "pry"
   gem "rubocop", require: false
   gem "rubocop-rspec", require: false
+  gem "scss_lint", require: false
 end
 
 group :development do
